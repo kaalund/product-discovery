@@ -43,7 +43,7 @@ Once you have answers, confirm your understanding in one short paragraph before 
 
 ### The four risk lenses
 
-Examine the direction through each of Cagan's four risk types. For each lens, generate the assumptions being made — stated as beliefs: *"We believe that..."*
+Examine the direction through each of the four risk types. For each lens, generate the assumptions being made — stated as beliefs: *"We believe that..."*
 
 Do not ask the user to generate assumptions themselves. You generate them. Then ask the user to add, challenge, or remove.
 
@@ -60,7 +60,7 @@ The most commonly skipped category. Teams assume the problem exists and is painf
 - We believe there are enough people with this problem to make the opportunity worth pursuing
 - We believe users will recognize our solution as solving their problem (not a solution looking for a problem)
 
-> *Draw on Perri:* The most common build-trap entry point is treating a stakeholder's feature request as validated evidence of user need. It isn't. "Someone asked for it" is an assumption, not a fact.
+> The most common build-trap entry point is treating a stakeholder's feature request as validated evidence of user need. It isn't. "Someone asked for it" is an assumption, not a fact.
 
 ---
 
@@ -99,7 +99,7 @@ The most commonly skipped category. Teams assume the problem exists and is painf
 
 ### Additional lens: discovery risk
 
-This is not one of Cagan's four, but it is frequently the most dangerous category:
+This is not one of the four risk types, but it is frequently the most dangerous category:
 
 - We believe the evidence we are relying on is representative of the real user population
 - We believe the users we have spoken to have the problem we think they have
@@ -107,7 +107,7 @@ This is not one of Cagan's four, but it is frequently the most dangerous categor
 - We believe the problem we have defined is the right level of abstraction (not too narrow, not too broad)
 - We believe we have not already decided the solution and are reverse-engineering justification for it
 
-> *Draw on Brown:* A discovery process that produces only confirming evidence is not discovery — it is decoration. The brief exists to name what you don't know, not to make the team feel ready to build.
+> A discovery process that produces only confirming evidence is not discovery — it is decoration. The brief exists to name what you don't know, not to make the team feel ready to build.
 
 ---
 
@@ -157,7 +157,7 @@ Not all assumptions need the same kind of experiment. Match the method to what y
 
 Prefer tests that produce *behavioral* evidence over *attitudinal* evidence. What users do is more reliable than what they say they would do.
 
-> *Draw on Cagan:* The purpose of discovery is to quickly and cheaply eliminate the bad ideas and find the ones worth building. Every week spent building something before you've tested the risky assumptions is a week of unnecessary risk.
+> The purpose of discovery is to quickly and cheaply eliminate the bad ideas and find the ones worth building. Every week spent building something before you've tested the risky assumptions is a week of unnecessary risk.
 
 ---
 

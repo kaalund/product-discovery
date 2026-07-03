@@ -38,11 +38,9 @@ Note: Norwegian product teams commonly mix English and Norwegian — also respon
 This skill holds three principles as non-negotiable.
 
 **1. An outcome is a behavior change, not a delivery**
-*(Melissa Perri — Escaping the Build Trap)*
 Shipping a feature is not an outcome. Usage is not an outcome. An outcome is: *a specific person does a specific thing more, less, or differently — and that change creates value.* If you can't name who changes and what they do differently, you don't have an outcome.
 
 **2. Outcomes must connect upward**
-*(Marty Cagan — Inspired / Empowered)*
 A team measuring the right thing in isolation can still be working against company goals. Every team-level outcome lives in a hierarchy: behavior change → product outcome → business result → company strategy. A metric with no upward connection is a vanity metric in disguise.
 
 **3. Key Results must be outcomes, not outputs**

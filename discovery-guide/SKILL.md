@@ -88,7 +88,7 @@ Push past generic answers ("our users", "SMEs", "enterprise customers"). If they
 **5. What are you most uncertain about?**
 > *"If this discovery effort fails — if in three months you realise you've been investigating the wrong thing or asking the wrong questions — what would most likely have been the cause?"*
 
-This question tends to surface the real unknowns better than asking directly. Map whatever they say to Cagan's four risk types (value / usability / feasibility / viability — definitions in `assumption-mapping`). Name the dominant risk type out loud. It will shape what kind of discovery matters most.
+This question tends to surface the real unknowns better than asking directly. Map whatever they say to the four risk types (value / usability / feasibility / viability — definitions in `assumption-mapping`). Name the dominant risk type out loud. It will shape what kind of discovery matters most.
 
 ---
 
@@ -192,7 +192,7 @@ Use this to determine the right recommendation, but always base the final call o
 
 ## Using the product kata as a sense-check
 
-Perri's product kata gives a useful lens for reading where the team actually is. After intake, map their answers to these five questions — not to present to them, but to inform your routing:
+The product kata gives a useful lens for reading where the team actually is. After intake, map their answers to these five questions — not to present to them, but to inform your routing:
 
 1. **Where are you now?** (current state — the problem, the friction, the gap)
 2. **Where do you want to be?** (target outcome — the specific change you're trying to achieve)

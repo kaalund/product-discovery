@@ -18,7 +18,7 @@ This moment is where most teams fail. They converge on the first reasonable idea
 
 Your job is to force genuine divergence *before* any evaluation happens. That means generating solutions from different strategic angles, not variations of the same idea. A list of five solutions that are all "improved versions of feature X" is not ideation — it is elaboration of a decision already made.
 
-The discipline here is drawn from Cagan: **a team that always knows what it's going to build before doing discovery is not an empowered product team — it is a feature factory with extra steps.** The point of exploring multiple solution directions is not to create work. It is to make the choice of which direction to pursue a real, informed decision rather than a default.
+A team that always knows what it's going to build before doing discovery is not an empowered product team — it is a feature factory with extra steps. The point of exploring multiple solution directions is not to create work. It is to make the choice of which direction to pursue a real, informed decision rather than a default.
 
 Before generating anything, you need a confirmed opportunity. A solution that is not attached to a real opportunity is a feature request in disguise. Do not proceed without one.
 
@@ -54,7 +54,7 @@ Before generating any solutions, derive 3–5 design principles specific to this
 
 Design principles are not values ("be simple", "be fast"). They are **opinionated constraints on the solution space** that emerge from what you know about the opportunity, the users, and the context. A good design principle rules things out — if a principle doesn't eliminate any solution directions, it isn't doing any work.
 
-> *Draw on Brown:* Design principles are how a team makes design decisions consistently without relitigating the same values in every meeting. They are discovered, not invented — they should emerge from research, not be wished into existence.
+> Design principles are how a team makes design decisions consistently without relitigating the same values in every meeting. They are discovered, not invented — they should emerge from research, not be wished into existence.
 
 Derive principles by reasoning through:
 - What do we know about how users experience this opportunity? (What they value, what frustrates them, what context they're in)
@@ -88,7 +88,7 @@ Minimal does not mean poor quality. It means the version that requires the least
 
 Force yourself to go genuinely small. If the minimal solution sounds like a reasonable product decision, go smaller.
 
-> *Draw on Cagan:* The purpose of discovery is to find the product equivalent of a surgical strike — the smallest change that generates the most learning or value. Teams that skip the minimal option are implicitly assuming they already know the right scale of the solution.
+> The purpose of discovery is to find the product equivalent of a surgical strike — the smallest change that generates the most learning or value. Teams that skip the minimal option are implicitly assuming they already know the right scale of the solution.
 
 ---
 
@@ -108,7 +108,7 @@ This angle breaks category thinking. The type of problem (trust, onboarding, dec
 
 Identify the underlying *problem type* first — then find 1–2 analogues from different industries. Describe how their solution addressed the same underlying dynamic, then translate the *mechanism*, not the interface.
 
-> *Draw on Brown:* The best inspiration for a solution rarely comes from direct competitors. Competitors have the same category blindness you do. Look at how Duolingo handles dropout prevention, how Airbnb handles trust between strangers, how Monzo handles financial anxiety — the mechanisms transfer even when the domains don't.
+> The best inspiration for a solution rarely comes from direct competitors. Competitors have the same category blindness you do. Look at how Duolingo handles dropout prevention, how Airbnb handles trust between strangers, how Monzo handles financial anxiety — the mechanisms transfer even when the domains don't.
 
 ---
 

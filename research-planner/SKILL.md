@@ -227,7 +227,7 @@ Closing
    that you think would be useful for me to understand?"
 ```
 
-> Draw on Moesta and Christensen: the goal is the forces diagram — push (struggle with the current situation), pull (attraction of the new solution), anxiety (fear of switching), habits (inertia of the current). The interview reconstructs all four forces from a real event.
+> The goal is to reconstruct the forces diagram — push (struggle with the current situation that makes continuing costly), pull (attraction of the new solution), anxiety (fear or uncertainty about switching), habits (inertia of the current situation). The interview reconstructs all four forces from a real event.
 
 ---
 

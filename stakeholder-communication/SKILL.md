@@ -114,7 +114,7 @@ What should the audience do with this? What decision does it inform? What direct
 
 This beat often gets softened or hedged to avoid conflict. Do not soften it. A directional recommendation, stated with the appropriate confidence level, is more useful than a list of options with no view.
 
-> *Draw on Cagan:* The job of discovery communication is not to show that the team did research. It is to move the organisation's confidence in a direction. If the communication doesn't shift a belief or enable a decision, it hasn't done its job.
+> The job of discovery communication is not to show that the team did research. It is to move the organisation's confidence in a direction. If the communication doesn't shift a belief or enable a decision, it hasn't done its job.
 
 ---
 
@@ -220,7 +220,7 @@ Explicit out-of-scope definition. This is where most engineering conversations g
 8. What we'd want to discuss  ← The one or two real questions this group can help answer
 ```
 
-> *Draw on Brown:* A discovery narrative earns trust not by showing the volume of work done, but by being honest about what was uncertain, what was found, and what remains open. Teams that present discovery as a clean linear journey lose credibility with experienced audiences — real discovery is messy, and that's a feature, not a flaw.
+> A discovery narrative earns trust not by showing the volume of work done, but by being honest about what was uncertain, what was found, and what remains open. Teams that present discovery as a clean linear journey lose credibility with experienced audiences — real discovery is messy, and that's a feature, not a flaw.
 
 **The "what surprised us" section is the most important.** If nothing surprised the team, either the discovery confirmed strong prior beliefs (worth noting explicitly) or the discovery didn't go deep enough. Surprises are the signal that real learning happened.
 

@@ -55,7 +55,7 @@ From these answers, pick the most relevant mode below and lead with the sharpest
 - Customer feedback is collected but doesn't change what gets built
 - Stakeholder requests bypass or override discovery
 
-> Draw on Perri: *"The build trap is when organizations measure success by outputs — the features they ship — rather than the outcomes those outputs produce. Companies can stay stuck in the build trap for years, shipping constantly and never improving anything that matters."*
+> The build trap is when teams measure success by outputs — the features they ship — rather than the outcomes those outputs produce. Teams can stay stuck for years, shipping constantly and never improving anything that matters.
 
 ---
 
@@ -76,7 +76,7 @@ Work through each failure mode:
 
 For each failure mode that resonates: *"How likely is this on a scale of 1–5? What's the earliest signal you'd see? What would you do differently now to reduce this risk?"*
 
-> The six failure modes above map to Cagan's four risk types (value / usability / feasibility / viability) plus discovery and strategy failures. Risk type definitions in `assumption-mapping`.
+> The six failure modes above map to the four risk types (value / usability / feasibility / viability) plus discovery and strategy failures. Risk type definitions in `assumption-mapping`.
 
 ---
 
@@ -131,7 +131,7 @@ Challenge:
 - Who owns the outcome — and do they have the power and information to actually pursue it?
 - Is product strategy set by people who talk to customers, or people who don't?
 
-> Draw on Cagan: *"In a feature factory, the team is there to serve the roadmap. In an empowered team, the roadmap serves the team's pursuit of outcomes. The difference is not process — it's who has decision authority and what they're accountable for."*
+> In a feature factory, the team is there to serve the roadmap. In an empowered team, the roadmap serves the team's pursuit of outcomes. The difference is not process — it's who has decision authority and what they're accountable for.
 
 If the user is operating as a waiter — taking orders from stakeholders and converting them to requirements — name it: *"You're describing a feature factory, not product discovery. The process you're running won't change what gets built, because the decision has already been made upstream. Discovery without authority to act on what you find is theater."*
 
@@ -143,7 +143,7 @@ If the user is operating as a waiter — taking orders from stakeholders and con
 - **Name the pattern when you see it.** If it's a build trap, say "build trap." If it's solution-first thinking, say it. Give the user vocabulary they can take back to their team.
 - **Ask one hard question at a time.** Don't machine-gun questions. Ask the sharpest one, then wait. Let the user sit with it.
 - **Don't soften.** Hedging ("you might want to consider...") undermines the point of this skill. Say what you see.
-- **Cite the failure mode.** When you diagnose a problem, name which risk type (Cagan: value/usability/feasibility/viability) or trap type (Perri: build trap, strategic gap, knowledge gap) it maps to. Definitions in `assumption-mapping`.
+- **Cite the failure mode.** When you diagnose a problem, name which risk type (value/usability/feasibility/viability) or trap type (build trap, strategic gap, knowledge gap) it maps to. Definitions in `assumption-mapping`.
 - **Name validation theater when you see it.** If the user is running research or experiments to confirm a decision already made, name it as "validation theater." This skill is the canonical home for this anti-pattern.
 - **End with one question.** After any challenge session, close with: *"If you could only answer one question before moving forward, what should it be — and do you know how you'd answer it?"*
 

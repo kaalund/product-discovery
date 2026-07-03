@@ -64,7 +64,7 @@ Flag any observation that contains hidden interpretation — gently, not pedanti
 ### What this phase does
 Group observations into clusters where a shared pattern or tension is beginning to emerge. This is the affinity mapping step.
 
-> *Draw on Brown's synthesis approach:* Affinity mapping works by proximity of meaning, not by category. Two observations that feel related — even if you can't yet articulate why — belong together. The relationship will become clearer as the cluster grows.
+> Affinity mapping works by proximity of meaning, not by category. Two observations that feel related — even if you can't yet articulate why — belong together. The relationship will become clearer as the cluster grows.
 
 ### How to run this phase
 
@@ -102,7 +102,7 @@ An insight is:
 - Surprising enough that it makes someone sit up
 - Generative — it opens up solution space rather than collapsing it
 
-> *Draw on insight laddering (Brown, adapted from Reynolds):* Ask "why" repeatedly on the observations in a cluster until you reach a belief, value, or behavior pattern that explains the surface. The insight lives at this deeper level, not at the surface.
+> Ask "why" repeatedly on the observations in a cluster until you reach a belief, value, or behavior pattern that explains the surface. The insight lives at this deeper level, not at the surface.
 
 ### The insight ladder in practice
 
@@ -152,7 +152,7 @@ The "But" clause is where the product opportunity lives.
 
 For each insight (or cluster of related insights), generate 2–3 "How Might We" statements that reframe the insight as an open design challenge.
 
-> *Draw on Brown's reframing technique:* HMW statements should be narrow enough to be actionable but broad enough to allow multiple solutions. They should feel slightly provocative — not a polite restatement of the insight.
+> HMW statements should be narrow enough to be actionable but broad enough to allow multiple solutions. They should feel slightly provocative — not a polite restatement of the insight.
 
 ### HMW calibration
 
