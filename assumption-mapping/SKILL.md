@@ -225,4 +225,4 @@ Once the experiment backlog is complete, ask:
 
 ## Reference
 
-See `DISCOVERY_BUNDLE.md` for the canonical source bibliography, risk type definitions, evidence log format, and confidence scoring scale.
+The confidence scale and evidence log format defined in this skill are used across the discovery bundle. Other skills point here for those definitions.

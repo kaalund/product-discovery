@@ -92,7 +92,7 @@ This section prevents the team from rediscovering what's already known.
 **What we don't know — and need to**
 This is the most important section of the brief. List the key unknowns as explicit questions, not vague topics. Each unknown should be testable — something that research, prototyping, or data analysis could resolve.
 
-Categorise them loosely by risk type (value / usability / feasibility / viability — definitions in `DISCOVERY_BUNDLE.md`). Not every brief will have all four. Identify the dominant risk type for this discovery effort — it shapes what kind of research matters most.
+Categorise them loosely by risk type (value / usability / feasibility / viability — definitions in `assumption-mapping`). Not every brief will have all four. Identify the dominant risk type for this discovery effort — it shapes what kind of research matters most.
 
 ---
 
@@ -132,7 +132,7 @@ This keeps the brief honest and signals to the user that it's a working document
 
 ## Reference frameworks
 
-See `DISCOVERY_BUNDLE.md` for the canonical source bibliography and framework definitions, including Cagan's four risk types and their application to discovery briefs.
+For Cagan's four risk types and their application to discovery briefs, see `assumption-mapping`.
 
 ---
 

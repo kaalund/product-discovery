@@ -88,7 +88,7 @@ Push past generic answers ("our users", "SMEs", "enterprise customers"). If they
 **5. What are you most uncertain about?**
 > *"If this discovery effort fails — if in three months you realise you've been investigating the wrong thing or asking the wrong questions — what would most likely have been the cause?"*
 
-This question tends to surface the real unknowns better than asking directly. Map whatever they say to Cagan's four risk types (value / usability / feasibility / viability — definitions in `DISCOVERY_BUNDLE.md`). Name the dominant risk type out loud. It will shape what kind of discovery matters most.
+This question tends to surface the real unknowns better than asking directly. Map whatever they say to Cagan's four risk types (value / usability / feasibility / viability — definitions in `assumption-mapping`). Name the dominant risk type out loud. It will shape what kind of discovery matters most.
 
 ---
 
@@ -215,4 +215,4 @@ If the user can't answer question 2 clearly, everything else is premature. If th
 
 ---
 
-Its job is orientation. Get in, get honest, get pointed at the right next thing. The full bundle routing map is in `DISCOVERY_BUNDLE.md`.
+Its job is orientation. Get in, get honest, get pointed at the right next thing.

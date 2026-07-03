@@ -127,7 +127,7 @@ Push the user to reach insights at this depth. If an insight still sounds like a
 
 Apply this phase when the research involved recruitment or switching conversations, or when the insights relate to motivation, adoption, or why people start or stop using something.
 
-> *JTBD framework:* People "hire" products to make progress in specific circumstances. The job is the underlying progress, not the product category. For the full forces diagram (push / pull / anxiety / habits), see `research-planner` and `DISCOVERY_BUNDLE.md`.
+> *JTBD framework:* People "hire" products to make progress in specific circumstances. The job is the underlying progress, not the product category. For the full forces diagram (push / pull / anxiety / habits), see `research-planner`.
 
 ### Structure a JTBD statement for each relevant insight:
 
@@ -185,7 +185,7 @@ Assumptions remaining: [what this insight still doesn't prove]
 
 ### Confidence grading
 
-Use the 1–5 confidence scale from `DISCOVERY_BUNDLE.md`. Most qualitative research insights land at 2–3; a grade of 4–5 requires triangulation across methods. Name this honestly — overstating confidence is how bad decisions get made with a "research-backed" label on them.
+Use the 1–5 confidence scale defined in `assumption-mapping`. Most qualitative research insights land at 2–3; a grade of 4–5 requires triangulation across methods. Name this honestly — overstating confidence is how bad decisions get made with a "research-backed" label on them.
 
 **Flag any insight graded as high confidence but resting entirely on self-reported data.** Self-reported data should cap at 3 unless supported by observed behaviour. What people say they do and what they actually do diverge constantly.
 

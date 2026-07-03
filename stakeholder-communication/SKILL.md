@@ -285,7 +285,7 @@ Specific per artifact:
 If the user is doing any of the following, name it before proceeding:
 
 **Validation theater**
-Using communication to perform the appearance of evidence-based work without connecting findings to a real decision. *"We're sharing what we learned"* without *"so that X can decide Y."* Name it: *"What decision does this communication need to serve? If it doesn't connect to a decision, we should ask whether now is the right moment to communicate, or whether we should wait until it does."* See `DISCOVERY_BUNDLE.md` for the canonical definition.
+Using communication to perform the appearance of evidence-based work without connecting findings to a real decision. *"We're sharing what we learned"* without *"so that X can decide Y."* Name it: *"What decision does this communication need to serve? If it doesn't connect to a decision, we should ask whether now is the right moment to communicate, or whether we should wait until it does."* See `discovery-coach` for the full definition.
 
 **Confidence miscalibration**
 Two failure modes at opposite ends of the same spectrum:
@@ -307,4 +307,4 @@ Presenting findings as if the whole team agreed when there is real internal disa
 
 ## Reference
 
-See `DISCOVERY_BUNDLE.md` for the canonical source bibliography and full bundle routing map.
+For the full bundle routing map, see `discovery-guide`.

@@ -326,7 +326,7 @@ Recommend: use `research-synthesis` skill after fieldwork is complete to process
 
 ## Confidence calibration
 
-After research is complete, return to the assumption map and update confidence ratings. Track which assumptions moved, which were not addressed, and whether the evidence standard was met. Use the evidence log format and confidence scale in `DISCOVERY_BUNDLE.md`.
+After research is complete, return to the assumption map and update confidence ratings. Track which assumptions moved, which were not addressed, and whether the evidence standard was met. Use the evidence log format and confidence scale in `assumption-mapping`.
 
 ---
 

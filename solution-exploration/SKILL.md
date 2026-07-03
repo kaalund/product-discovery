@@ -244,4 +244,4 @@ Once the recommendation is delivered, ask two closing questions:
 
 ## Reference
 
-See `DISCOVERY_BUNDLE.md` for the canonical source bibliography and full bundle routing map.
+For the full bundle routing map, see `discovery-guide`.

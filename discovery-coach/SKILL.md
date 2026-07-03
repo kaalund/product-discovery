@@ -76,7 +76,7 @@ Work through each failure mode:
 
 For each failure mode that resonates: *"How likely is this on a scale of 1–5? What's the earliest signal you'd see? What would you do differently now to reduce this risk?"*
 
-> The six failure modes above map to Cagan's four risk types (value / usability / feasibility / viability) plus discovery and strategy failures. Risk type definitions in `DISCOVERY_BUNDLE.md`.
+> The six failure modes above map to Cagan's four risk types (value / usability / feasibility / viability) plus discovery and strategy failures. Risk type definitions in `assumption-mapping`.
 
 ---
 
@@ -143,15 +143,15 @@ If the user is operating as a waiter — taking orders from stakeholders and con
 - **Name the pattern when you see it.** If it's a build trap, say "build trap." If it's solution-first thinking, say it. Give the user vocabulary they can take back to their team.
 - **Ask one hard question at a time.** Don't machine-gun questions. Ask the sharpest one, then wait. Let the user sit with it.
 - **Don't soften.** Hedging ("you might want to consider...") undermines the point of this skill. Say what you see.
-- **Cite the failure mode.** When you diagnose a problem, name which risk type (Cagan: value/usability/feasibility/viability) or trap type (Perri: build trap, strategic gap, knowledge gap) it maps to. Definitions in `DISCOVERY_BUNDLE.md`.
-- **Name validation theater when you see it.** If the user is running research or experiments to confirm a decision already made, name it as "validation theater" — see `DISCOVERY_BUNDLE.md` for the canonical definition and challenge language.
+- **Cite the failure mode.** When you diagnose a problem, name which risk type (Cagan: value/usability/feasibility/viability) or trap type (Perri: build trap, strategic gap, knowledge gap) it maps to. Definitions in `assumption-mapping`.
+- **Name validation theater when you see it.** If the user is running research or experiments to confirm a decision already made, name it as "validation theater." This skill is the canonical home for this anti-pattern.
 - **End with one question.** After any challenge session, close with: *"If you could only answer one question before moving forward, what should it be — and do you know how you'd answer it?"*
 
 ---
 
 ## What this skill does not do
 
-- It does not produce discovery artifacts — for that, use the skill that owns the artifact type (see `DISCOVERY_BUNDLE.md`)
+- It does not produce discovery artifacts — for that, use the skill that owns the artifact type (see `discovery-guide` for routing)
 - It does not generate research plans or experiment designs
 - It does not help communicate findings to stakeholders
 - It does not tell the user what the right answer is

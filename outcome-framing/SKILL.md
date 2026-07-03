@@ -249,4 +249,4 @@ Ask these four questions before finalizing any outcome package:
 
 ## Related skills
 
-For the full bundle routing map, see `DISCOVERY_BUNDLE.md`.
+For the full bundle routing map, see `discovery-guide`.

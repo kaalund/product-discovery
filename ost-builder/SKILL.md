@@ -207,4 +207,4 @@ The goal is not to fill in a template. The goal is to make visible the quality o
 
 ## Reference
 
-See `DISCOVERY_BUNDLE.md` for the canonical source bibliography, risk type definitions, and routing map for the full discovery bundle.
+For risk type definitions, see `assumption-mapping`. For the full bundle routing map, see `discovery-guide`.
