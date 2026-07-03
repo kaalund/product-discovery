@@ -130,7 +130,7 @@ This keeps the brief honest and signals to the user that it's a working document
 
 ---
 
-## Reference frameworks
+## Reference
 
 For Cagan's four risk types and their application to discovery briefs, see `assumption-mapping`.
 
