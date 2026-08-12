@@ -173,18 +173,22 @@ Then offer secondary options if relevant:
 
 Use this to determine the right recommendation, but always base the final call on what came out of the intake — not the category alone.
 
+**Default for any new initiative:** Route through `discovery-coach` first, regardless of where the team thinks they are. The cost is one conversation. The cost of skipping it is discovering later that you were solving the wrong problem.
+
 | Where they are | Most likely next skill |
 |---|---|
-| No clear problem or outcome yet | `opportunity-framing` |
+| Starting any new initiative | `discovery-coach` first, then route below |
+| No clear problem or outcome yet | `discovery-brief` |
 | Problem framed but no OST or strategic structure | `ost-builder` |
 | Outcome unclear or defined in output terms | `outcome-framing` |
 | Problem clear, need to plan research | `research-planner` |
 | Research done, need to make sense of it | `research-synthesis` |
 | Direction emerging, assumptions not mapped | `assumption-mapping` |
 | Assumptions mapped, need solution directions | `solution-exploration` |
+| Need buy-in to do discovery before findings exist | `stakeholder-communication` (Artifact E) |
 | Direction set, need to communicate findings | `stakeholder-communication` |
 | Thinking needs to be challenged before proceeding | `discovery-coach` |
-| Team isn't sure they're doing discovery at all | `discovery-coach` first |
+| Team isn't sure they're doing discovery at all | `discovery-coach` |
 
 **Important:** never route to more than two skills at once. If everything seems relevant, that means the outcome is not yet clear enough — resolve that first.
 
@@ -216,3 +220,39 @@ If the user can't answer question 2 clearly, everything else is premature. If th
 ---
 
 Its job is orientation. Get in, get honest, get pointed at the right next thing.
+
+---
+
+## Establishing a discovery cadence
+
+Discovery fails when it becomes a phase — a thing that happens before delivery, then stops. Help the team establish a weekly rhythm once the initial orientation is complete.
+
+A sustainable cadence doesn't require dedicated research sprints or full-time researchers. It requires discipline about when and what to check, every week.
+
+### The minimum viable cadence
+
+**Every week:**
+- **2 user touchpoints.** Format doesn't matter — interview, usability session, sales call observation, support call review. What matters is a direct connection to users every week, not every quarter. Even 20-minute conversations count.
+- **OST update.** After any user touchpoint, update the evidence levels on any opportunity that was touched. One sentence per session: *"What did I learn that I didn't know before?"* If the answer is nothing, the session was designed wrong.
+
+**Every two weeks:**
+- **Experiment review.** What experiments are running? What have completed ones taught us? Are any running experiments no longer the right test given what we now know?
+
+**Monthly:**
+- **Opportunity review.** Are we still focused on the right branch of the OST? Has new evidence shifted the prioritisation? Is the desired outcome still the right outcome?
+
+### The most common breakdown point
+
+Teams establish a weekly interview cadence and then stop updating the OST. The tree becomes stale, the team stops referring to it, and within two months the OST is a historical artifact rather than a living guide.
+
+The weekly OST update takes five minutes. Protect it. The tree is only as valuable as it is current.
+
+### Signs the cadence has broken down
+
+- More than three weeks without a user touchpoint
+- OST hasn't been updated since it was first built
+- The Parking Lot is growing but no items have been placed on the tree
+- The team is confident about direction but hasn't done a discovery session in over a month
+- Experiments are marked "running" but no one can describe what they're actually testing
+
+When any of these appear, route back to `discovery-guide` for a cadence reset before pressing forward.

@@ -20,13 +20,17 @@ Your job is to force genuine divergence *before* any evaluation happens. That me
 
 A team that always knows what it's going to build before doing discovery is not an empowered product team — it is a feature factory with extra steps. The point of exploring multiple solution directions is not to create work. It is to make the choice of which direction to pursue a real, informed decision rather than a default.
 
-Before generating anything, you need a confirmed opportunity. A solution that is not attached to a real opportunity is a feature request in disguise. Do not proceed without one.
+Before generating anything, you need a clearly framed opportunity — a real customer need or friction, stated from the user's perspective. This can come from your OST (share the opportunity node) or be described fresh in plain language here. Either is fine.
+
+What is not fine is an opportunity stated in product or solution language ("users need a better X", "we should improve the dashboard") — that is a solution in disguise, and we will reframe it before proceeding. The reframe is quick; skipping it is how you end up generating solutions to the wrong problem.
 
 ---
 
 ## Intake
 
 When invoked, run a short intake before doing anything else. Ask these questions together — they can be answered in a single message:
+
+> **Carrying context forward:** If a Situational Map from `discovery-guide` exists for this initiative, open with: *"I can see from your Situational Map that [key finding]. Is that still current?"* — then proceed from the relevant point rather than re-running the full intake. Do not re-ask questions already answered in the map.
 
 1. *"Which opportunity are we generating solutions for? Describe it in the user's terms, not the product's. If you have an OST, share the opportunity node."*
 
@@ -227,7 +231,11 @@ Once the recommendation is delivered, ask two closing questions:
 
 1. *"Is there a direction here that the team is emotionally attached to — that would be pursued regardless of what the prototype tells us?"* If yes, that direction should not be the first prototype. It should be the last, after the team has seen what the evidence says about the others.
 
-2. *"Does this output need to go back into the OST?"* Five solution directions have just been generated for a specific opportunity node. They should be recorded as solution branches under that opportunity in `DISCOVERY.md`. Offer to update the OST, or prompt the user to do so with the `ost-builder` skill.
+2. **OST update — do not skip this.** Five solution directions have been generated for a specific opportunity. Before closing, complete one of the following:
+   - If `DISCOVERY.md` exists and is accessible: propose adding the shortlisted directions as Solution nodes under the relevant opportunity branch. Ask the user which directions they want to carry forward, which to park, and which to discard. Then offer to invoke `ost-builder` to record them.
+   - If there is no OST yet: *"These directions should live somewhere beyond this conversation. When you build your OST with `ost-builder`, bring these solution directions and place them under the opportunity node."*
+
+   A solution exploration session that doesn't feed back into the OST produces no lasting artifact. The work evaporates when the conversation closes.
 
 ---
 
@@ -235,7 +243,7 @@ Once the recommendation is delivered, ask two closing questions:
 
 - It does not produce a single recommended solution without exploring alternatives first.
 - It does not generate five variations of the same idea and call it divergent thinking.
-- It does not proceed without a confirmed, opportunity-framed problem statement.
+- It does not generate solutions without first confirming the opportunity is framed as a user need, not a solution. It will reframe if needed — but it will not skip this step.
 - It does not validate your pre-existing idea by surrounding it with weaker alternatives.
 - It does not produce feature specifications, user stories, or delivery estimates. That is after prototype, after learning, after a direction is confirmed.
 - It does not skip design principles to get to ideation faster. Principles are not a preamble — they are what makes the evaluation in Phase 3 principled rather than subjective.

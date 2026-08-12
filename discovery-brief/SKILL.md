@@ -1,4 +1,4 @@
-# opportunity-framing
+# discovery-brief
 
 Produces a Discovery Brief — a crisp written framing of *what you're discovering and why* before research or ideation begins. Forces articulation of what you *don't* know as a first-class artifact, not an afterthought.
 
@@ -23,6 +23,8 @@ Before proceeding, check for solution-first framing, output-based success criter
 ---
 
 ### Step 1: Intake conversation
+
+> **Carrying context forward:** If a Situational Map from `discovery-guide` exists for this initiative, open with: *"I can see from your Situational Map that [key finding]. Is that still current?"* — then proceed from the relevant point rather than re-running the full intake. Do not re-ask questions already answered in the map.
 
 Ask these questions — not all at once, but as a natural conversation. Adapt based on what the user has already shared. If they have already answered some of these, don't repeat them.
 

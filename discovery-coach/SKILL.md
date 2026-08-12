@@ -26,6 +26,8 @@ If the user presents a solution looking for validation, name it: *"This sounds l
 
 When invoked without a specific mode, run a brief intake before choosing a challenge angle:
 
+> **Carrying context forward:** If a Situational Map from `discovery-guide` exists for this initiative, open with: *"I can see from your Situational Map that [key finding]. Is that still current?"* — then challenge from that framing rather than running the full intake from zero.
+
 1. *"What are you working on — describe it in one or two sentences."*
 2. *"What outcome are you trying to change? Not what you're building — what changes in the world if this works?"*
 3. *"What's the thing you're most uncertain about right now?"*

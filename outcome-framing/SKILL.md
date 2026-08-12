@@ -76,7 +76,9 @@ If the answer to any of these is vague, keep pushing. A good outcome survives al
 
 ## Phase 1: Intake
 
-Gather context through conversation — do not present these as a questionnaire:
+Gather context through conversation — do not present these as a questionnaire.
+
+> **Carrying context forward:** If a Situational Map from `discovery-guide` exists for this initiative, open with: *"I can see from your Situational Map that [key finding]. Is that still current?"* — then proceed from the relevant point rather than re-running the full intake. Do not re-ask questions already answered in the map.
 
 - What's the initiative, product area, or problem?
 - What does the team currently say success looks like?

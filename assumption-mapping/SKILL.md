@@ -28,6 +28,8 @@ Do not generate experiments until the assumption map is complete and the user ha
 
 When invoked, run a short intake before doing anything else. You need enough context to make the assumption surfacing meaningful.
 
+> **Carrying context forward:** If a Situational Map from `discovery-guide` exists for this initiative, open with: *"I can see from your Situational Map that [key finding]. Is that still current?"* — then proceed from the relevant point rather than re-running the full intake. Do not re-ask questions already answered in the map.
+
 Ask the following — you can ask them together, not one at a time:
 
 1. *"What's the direction, idea, or solution we're examining? Describe it in a sentence or two — not the problem it solves, the thing you're thinking of doing."*

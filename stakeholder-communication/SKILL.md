@@ -2,11 +2,11 @@
 
 Translates discovery work into communication artifacts for people who weren't in the room — executives, engineers, other product teams, and anyone who needs to understand what was found and why it matters.
 
-Use this skill when someone needs to present discovery findings to leadership, write an executive summary, align engineering on a problem before a solution is built, create a decision record, or tell the story of a discovery effort to a cross-functional audience.
+Use this skill when someone needs to present discovery findings to leadership, write an executive summary, align engineering on a problem before a solution is built, create a decision record, tell the story of a discovery effort to a cross-functional audience, or **get buy-in to do discovery at all**.
 
-**English triggers:** "help me present discovery findings", "write an executive summary", "how do I explain this to leadership?", "engineering alignment brief", "stakeholder update", "communicate our findings", "how do I present this to the exec team?", "decision record", "discovery narrative", "write up what we learned", "how do I tell this story?", "present to leadership", "align stakeholders on findings", "summarise discovery for stakeholders", "update for the business", "what do I say to my manager?", "help me write a briefing", "communicate discovery outcomes", "what should I share with the team?", "discovery read-out", "how do I get buy-in?", "frame findings for leadership", "help me brief the engineers"
+**English triggers:** "help me present discovery findings", "write an executive summary", "how do I explain this to leadership?", "engineering alignment brief", "stakeholder update", "communicate our findings", "how do I present this to the exec team?", "decision record", "discovery narrative", "write up what we learned", "how do I tell this story?", "present to leadership", "align stakeholders on findings", "summarise discovery for stakeholders", "update for the business", "what do I say to my manager?", "help me write a briefing", "communicate discovery outcomes", "what should I share with the team?", "discovery read-out", "how do I get buy-in?", "frame findings for leadership", "help me brief the engineers", "my stakeholder wants a roadmap before we've done research", "how do I get permission to do discovery", "my director is pushing us to start building", "help me make the case for discovery", "how do I slow down the build before we understand the problem"
 
-**Norwegian triggers:** "hjelp meg å presentere funnene", "skriv et sammendrag for ledelsen", "hvordan forklarer jeg dette til ledelsen?", "engineering alignment", "oppdatering til interessenter", "formidle det vi lærte", "hvordan presenterer jeg dette for ledelsen?", "beslutningslogg", "beslutningsreferat", "discovery-fortelling", "skriv opp hva vi fant", "hvordan forteller jeg denne historien?", "presenter for ledelsen", "samstem interessenter", "oppsummer discovery for stakeholders", "oppdatering til virksomheten", "hva sier jeg til lederen min?", "hjelp meg å skrive et notat", "kommuniser discovery-resultater", "hva bør jeg dele med teamet?", "discovery-presentasjon", "hvordan får jeg aksept?", "formuler funnene for ledelsen", "brif ingeniørene"
+**Norwegian triggers:** "hjelp meg å presentere funnene", "skriv et sammendrag for ledelsen", "hvordan forklarer jeg dette til ledelsen?", "engineering alignment", "oppdatering til interessenter", "formidle det vi lærte", "hvordan presenterer jeg dette for ledelsen?", "beslutningslogg", "beslutningsreferat", "discovery-fortelling", "skriv opp hva vi fant", "hvordan forteller jeg denne historien?", "presenter for ledelsen", "samstem interessenter", "oppsummer discovery for stakeholders", "oppdatering til virksomheten", "hva sier jeg til lederen min?", "hjelp meg å skrive et notat", "kommuniser discovery-resultater", "hva bør jeg dele med teamet?", "discovery-presentasjon", "hvordan får jeg aksept?", "formuler funnene for ledelsen", "brif ingeniørene", "interessenten min vil ha en veikart allerede nå", "hvordan får jeg tillatelse til å gjøre discovery"
 
 ---
 
@@ -30,6 +30,8 @@ Before writing anything, identify the audience and their decision context. Then 
 ## Intake
 
 When invoked, ask these questions together — not as an interrogation, but as a framing conversation. If the user has already answered some in their prompt, skip those.
+
+> **Carrying context forward:** If a Situational Map from `discovery-guide` exists for this initiative, open with: *"I can see from your Situational Map that [key finding]. Is that still current?"* — then proceed from the relevant point rather than re-running the full intake. Do not re-ask questions already answered in the map.
 
 1. *"Who is the audience for this communication — executives, engineering, a cross-functional team, a specific stakeholder, or someone else? And roughly how much context do they already have?"*
 
@@ -260,6 +262,50 @@ The specific conditions under which this decision should be revisited. Examples:
 ---
 
 **Note on decision records:** They are almost always written too late — after a decision has been debated, contested, and partially forgotten. Encourage the user to write one immediately when a direction is chosen, while the reasoning is fresh. A decision record written six months later is a reconstruction, not a record.
+
+---
+
+### Artifact E: Alignment Brief (before findings exist)
+
+**When to use:** The team needs to do discovery but hasn't started — or is mid-discovery — and needs buy-in from leadership, engineering, or other stakeholders to continue. The goal is not to share findings but to create the conditions for discovery to happen at all.
+
+Common situations:
+- A stakeholder wants a roadmap before research is complete
+- Engineering is being pressured to begin speccing before the problem is understood
+- A senior stakeholder has announced a solution and the team needs to reopen the problem space
+- The team needs permission to delay a commitment until a key assumption is tested
+
+**The challenge with this artifact:** Most PMs default to arguing for more time or more research generically. This almost never works. The alignment brief works by grounding the request in the *specific risk the stakeholder cares about* — and showing that the investment in discovery is smaller than the risk of skipping it.
+
+**Format:** Written document or short slide narrative. 300–500 words. Direct and concrete. This is not a research plan — it is a risk framing.
+
+**Structure:**
+
+---
+
+**ALIGNMENT BRIEF**
+*[Initiative name] — [Date]*
+
+**What we're about to invest in**
+One paragraph. What is the team about to build, commit to, or resource? State it plainly from the stakeholder's perspective — what is being asked of them (time, money, engineering capacity, prioritisation)?
+
+**The specific thing we don't yet know**
+Not "we need to do more research" — that is a method, not a reason. Name the specific assumption that, if wrong, would make the planned investment wasteful or harmful. One assumption. The most dangerous one.
+
+Example: *"We're assuming that the drop in activation is caused by confusion in the onboarding flow. If it's actually caused by misaligned expectations at the marketing stage, rebuilding the entire onboarding flow would produce no improvement."*
+
+**What it would cost us to find out**
+How long would it take to test this assumption? What resources are required? What does a minimum viable test look like? Make this concrete and small — the goal is to make the cost of checking feel trivial compared to the cost of not checking.
+
+**What proceeding without checking would cost**
+Estimate the downside if the key assumption is wrong. Be honest about the range of outcomes. The stakeholder does not need certainty — they need to understand that the risk of skipping discovery is real and quantifiable, not theoretical.
+
+**The question we're asking you**
+One specific question or decision. Not "do we have permission to do research." Something concrete: *"Can we take 2 weeks to run 8 interviews before we commit to Q2 scope?"* or *"Can we hold the architecture decision until we've run one experiment on the onboarding flow?"*
+
+---
+
+**When this artifact fails:** If a stakeholder says no to a well-reasoned alignment brief, the problem is not the brief — it is the organisational dynamic. At that point, route to `discovery-coach` for the Empowered Team Check, not back to this skill. The communication problem cannot be solved with better communication if the underlying issue is that discovery has no authority.
 
 ---
 

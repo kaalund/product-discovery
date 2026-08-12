@@ -14,6 +14,8 @@ If you're not sure where to begin:
 
 This invokes **`discovery-guide`** — the bundle entry point. It runs a short intake, maps where you actually are, and routes you to the right next skill. It can also tell you if discovery isn't the right move yet.
 
+**For any new initiative, the recommended default first move is `discovery-coach`.** One adversarial conversation before you start discovery is cheaper than discovering you were solving the wrong problem three months in.
+
 ---
 
 ## Skills
@@ -25,7 +27,7 @@ Runs an intake conversation, produces a situational map (what you know, what you
 
 ---
 
-### `opportunity-framing` — Define the problem
+### `discovery-brief` — Define the problem
 Writes a Discovery Brief — a crisp framing of what you're investigating, for whom, and what you don't yet know. Challenges solution-first framing and output-based success criteria before writing anything.
 
 > *"Frame this problem"* · *"Write a discovery brief"* · *"Help me define the opportunity"* · *"What are we solving for?"*
@@ -40,9 +42,9 @@ Builds an outcome statement, metrics framework, and OKRs. Challenges vanity metr
 ---
 
 ### `ost-builder` — Build the Opportunity Solution Tree
-Creates and maintains `DISCOVERY.md` — the living artifact that connects your desired outcome → opportunities → solutions → experiments. Enforces the discipline that solutions must be attached to opportunities, not floating.
+Creates and maintains `DISCOVERY.md` — the living artifact that connects your desired outcome → opportunities → solutions → experiments. Enforces the discipline that solutions must be attached to opportunities, not floating. Includes an opportunity prioritisation protocol when the team has 3+ opportunities and needs to decide which to pursue first.
 
-> *"Build an OST"* · *"Update the opportunity solution tree"* · *"Map my opportunities"* · *"Where does this idea fit?"*
+> *"Build an OST"* · *"Update the opportunity solution tree"* · *"Map my opportunities"* · *"Which opportunity should we pursue?"*
 
 ---
 
@@ -54,37 +56,37 @@ Generates an assumption map across Cagan's four risk types (value, usability, fe
 ---
 
 ### `discovery-coach` — Challenge your thinking
-Adversarial by design. Modes: build-trap diagnosis, pre-mortem, devil's advocate, right-problem check, empowered team check. The only skill explicitly allowed to tell you you're doing it wrong.
+Adversarial by design. Modes: build-trap diagnosis, pre-mortem, devil's advocate, right-problem check, empowered team check. The only skill explicitly allowed to tell you you're doing it wrong. **Recommended as the default first step for any new initiative.**
 
 > *"Challenge my thinking"* · *"Pre-mortem this"* · *"Am I solving the right problem?"* · *"Poke holes in this"* · *"Is this the right direction?"*
 
 ---
 
 ### `research-planner` — Design research
-Starts from a prioritized assumption list (bring output from `assumption-mapping`), chooses the right method, and produces a research brief, participant criteria, and interview guide. Will tell you not to run research if the question is already answered or the assumption isn't worth testing.
+Starts from a prioritized assumption list (bring output from `assumption-mapping`), chooses the right method, and produces a research brief, participant criteria, interview guide, and note-taking template. Will tell you not to run research if the question is already answered or the assumption isn't worth testing.
 
 > *"Plan user research"* · *"Create an interview guide"* · *"Who should I talk to?"* · *"What research do I need?"*
 
 ---
 
 ### `research-synthesis` — Make sense of what you found
-Works through raw research notes in three levels — observation, insight, implication — that must be built in order. Produces How Might We statements, a JTBD summary, an evidence log with confidence grades, and proposed updates to the OST.
+Works through raw research notes in three levels — observation, insight, implication. Handles both **qualitative** (interviews, observations) and **quantitative** (analytics, surveys, funnel data) sources. Produces How Might We statements, a JTBD summary, an evidence log with confidence grades, and proposed updates to the OST.
 
-> *"I've done my interviews, help me make sense of them"* · *"Synthesize this research"* · *"What did we learn?"* · *"Help me analyze my notes"*
+> *"I've done my interviews, help me make sense of them"* · *"Synthesize this research"* · *"What did we learn?"* · *"Help me analyze my notes"* · *"Make sense of this data"*
 
 ---
 
 ### `solution-exploration` — Generate solution directions
-Takes a confirmed OST opportunity and generates five distinct directions across different strategic angles: minimal, workflow redesign, analogue, empowerment, systems. Forces genuine divergence before any evaluation. Produces a reasoned prototype recommendation.
+Takes an opportunity (from your OST or described fresh) and generates five distinct directions across different strategic angles: minimal, workflow redesign, analogue, empowerment, systems. Forces genuine divergence before any evaluation. Produces a reasoned prototype recommendation and feeds results back into the OST.
 
 > *"Generate solution ideas"* · *"What could we build for this opportunity?"* · *"Help me ideate on this"* · *"What are our options here?"*
 
 ---
 
-### `stakeholder-communication` — Communicate findings
-Translates discovery work into artifacts for people who weren't in the room. Four artifact types: executive summary, engineering alignment brief, discovery narrative, decision record. Challenges certainty inflation, data dumps, and solution smuggling before delivering anything.
+### `stakeholder-communication` — Communicate findings and get alignment
+Translates discovery work into artifacts for people who weren't in the room. Five artifact types: executive summary, engineering alignment brief, discovery narrative, decision record, and **alignment brief** (for getting buy-in to do discovery at all). Challenges certainty inflation, data dumps, and solution smuggling before delivering anything.
 
-> *"Write an executive summary"* · *"Help me present discovery findings"* · *"Engineering alignment brief"* · *"How do I explain this to leadership?"*
+> *"Write an executive summary"* · *"Help me present discovery findings"* · *"Engineering alignment brief"* · *"How do I explain this to leadership?"* · *"My stakeholder wants a roadmap before we've done research"* · *"How do I get permission to do discovery?"*
 
 ---
 
@@ -93,8 +95,9 @@ Translates discovery work into artifacts for people who weren't in the room. Fou
 You can enter at any point, but most discovery efforts move in this direction:
 
 ```
+discovery-coach          → challenge the framing before you invest in it
 discovery-guide          → orient, map where you are
-  opportunity-framing    → define the problem space
+  discovery-brief        → define the problem space
   outcome-framing        → define what success looks like
   ost-builder            → structure the work as a living tree
   assumption-mapping     → surface what you're betting on
@@ -104,4 +107,4 @@ discovery-guide          → orient, map where you are
   stakeholder-communication → communicate findings and decisions
 ```
 
-`discovery-coach` is available at any stage — invoke it when you need your thinking challenged rather than supported.
+`discovery-coach` is available at any stage — invoke it when you need your thinking challenged rather than supported. Starting with it is not paranoia; it's the cheapest insurance in the toolkit.

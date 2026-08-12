@@ -134,14 +134,13 @@ The OST lives in `DISCOVERY.md` at the project root. Use this exact structure so
 ### First invocation (no existing DISCOVERY.md)
 
 **Step 1 — Check for existing context.**
-Ask: do you already have a defined outcome, or are we starting from zero? If they have one, use it. If not, run the outcome intake.
+Ask: do you already have a defined outcome, or are we starting from zero? If a Situational Map from `discovery-guide` exists for this initiative, use it — it already captures the outcome, evidence base, and key unknowns. If they have an outcome from another source, use it. If not, redirect to `outcome-framing` before proceeding.
 
-**Step 2 — Outcome intake.** Ask these three questions in order. Do not proceed until there is a clear outcome.
-1. "What change in customer or user behaviour are you trying to drive?"
-2. "How would you know if you succeeded — what would you measure?"
-3. "What is the business reason this outcome matters right now?"
+**Step 2 — Confirm the outcome.** You need a solid outcome statement before the tree can be built. Do not construct one here — use `outcome-framing` for that.
 
-Produce the outcome statement. Show it. Get confirmation before moving on. If the outcome needs rigorous construction or OKR framing, use `outcome-framing` first and bring the result here.
+Ask: *"Do you have an outcome statement already — a specific change in user behaviour or business health you're working toward? If not, use `outcome-framing` first and bring the result back here."*
+
+If they have one, validate it passes the basic test: it names who changes, what they do differently, and why that matters. If it doesn't pass, redirect to `outcome-framing` rather than attempting a quick fix. A compromised outcome at the root of the tree contaminates every branch below it.
 
 **Step 3 — Seed the opportunities.**
 Ask: "What do you already know — or believe — about why users aren't achieving this outcome?" Accept research findings, observations, assumptions, hunches. Classify each: is it evidence or assumption? Place them as opportunities on the tree, noting evidence level for each.
@@ -192,6 +191,61 @@ If someone tries to load two outcomes onto one tree, name the tension and ask th
 
 **Evidence levels are mandatory.**
 Every opportunity must be tagged `assumed`, `observed`, or `validated`. An untagged opportunity is an invisible assumption. This single discipline is what separates a tree that reveals thinking from a tree that conceals it.
+
+---
+
+## Opportunity Prioritisation
+
+When the tree has 3 or more opportunities and the team needs to decide which to pursue first, run this protocol. Do not run it on a tree with only 1–2 opportunities — prioritisation requires a genuine choice.
+
+**Trigger:** *"We have several opportunities — which should we go after first?"* or when an Update invocation surfaces multiple unexplored branches and the team needs focus.
+
+### Scoring
+
+Score each opportunity across four dimensions. Generate your best assessment, then ask the user to review and adjust — do not fill the table silently and present it as settled.
+
+| Opportunity | Reach | Impact | Confidence | Ease | Priority score |
+|---|---|---|---|---|---|
+| [O1] | | | | | |
+| [O2] | | | | | |
+
+**Dimension definitions:**
+
+- **Reach (1–5):** How many users in the target segment experience this opportunity? 1 = narrow edge case, 5 = nearly all users in scope.
+- **Impact (1–5):** If this opportunity were fully addressed, how much would the desired outcome move? 1 = marginal, 5 = significant and direct.
+- **Confidence (1–5):** How well evidenced is this opportunity? Use the evidence level on the node: `assumed` → 1–2, `observed` → 3, `validated` → 4–5.
+- **Ease (1–5):** How tractable is this opportunity — how feasible is it to generate and test solutions here? 1 = deeply constrained or cross-cutting, 5 = relatively straightforward to explore.
+
+**Priority score:** `(Reach × Impact × Confidence) / (6 − Ease)`
+
+The formula is a thinking tool, not an oracle. After scoring, ask:
+
+*"Does anything feel wrong about this ranking? Any opportunity the score placed too high because it's comfortable to work on — or too low because it feels risky or ambitious?"*
+
+Flag specifically: an opportunity with high Reach and Impact but low Confidence is **not** a reason to deprioritise it. It may be the highest-value thing to research next. Low confidence is a reason to investigate, not a reason to park.
+
+### Prioritisation output
+
+After scoring and gut-check, produce a recommendation:
+
+```
+## Opportunity Prioritisation
+
+**Focus opportunity: [O1] [Title]**
+Score: [X] | Evidence: [assumed / observed / validated]
+
+**Rationale:** [2–3 sentences: why this opportunity, why now,
+what makes it the right first bet given the outcome and what the team already knows]
+
+**What this means for the other opportunities:**
+- [O2]: [One sentence — park, research in parallel, or revisit after O1]
+- [O3]: [same]
+
+**What would change this recommendation:**
+[The specific finding or signal that would make a different opportunity the right first bet]
+```
+
+After delivering, flag any opportunities with high Confidence but no Solution branches — validated needs with no solutions being explored are the most common strategic blind spot in a mature tree.
 
 ---
 

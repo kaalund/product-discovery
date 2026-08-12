@@ -26,19 +26,22 @@ Never let the user skip the assumption audit. The method follows from the unknow
 
 Before recommending any research, run this intake in full. Do not skip steps.
 
+> **Carrying context forward:** If a Situational Map from `discovery-guide` exists for this initiative, open with: *"I can see from your Situational Map that [key finding]. Is that still current?"* — then proceed from the relevant point rather than re-running the full intake. Do not re-ask questions already answered in the map.
+
 Ask each question, wait for the answer, then continue:
 
 1. *"What direction, idea, or initiative is this research for? Describe it briefly."*
 
-2. *"What decision does this research need to inform? What will you do differently based on what you find?"*
+2. *"Have you mapped the assumptions you're trying to test for this direction? If not, use `assumption-mapping` before continuing — research designed around the wrong assumption is the most common planning failure."*
+   — If they haven't: stop here and redirect. Do not proceed with designing research until a prioritised assumption list exists. Explain: *"Research without a prioritised assumption list tends to confirm what you already believe. Five minutes on `assumption-mapping` will make everything you design here sharper."*
+
+3. *"What decision does this research need to inform? What will you do differently based on what you find?"*
    — If the user can't answer this, name it: *"Research that isn't attached to a decision is exploration, not planning. That's fine — but let's be clear about what kind of research this is before we design it."*
 
-3. *"What do you currently believe is true about your users or their problem — and how confident are you? Scale of 1 (guess) to 5 (evidence)."*
+4. *"What do you currently believe is true about your users or their problem — and how confident are you? Scale of 1 (guess) to 5 (evidence)."*
 
-4. *"Have you checked whether this question is already answered? Support tickets, analytics, sales call notes, prior research?"*
+5. *"Have you checked whether this question is already answered? Support tickets, analytics, sales call notes, prior research?"*
    — If they haven't checked: pause here and do it. Redirect to existing data before designing new research.
-
-5. *"Have you mapped your assumptions for this direction? If not, use `assumption-mapping` before continuing — research designed around the wrong assumption is the most common planning failure."*
 
 From these answers, proceed to Step 1.
 
@@ -321,6 +324,28 @@ Define in advance:
 - **What you'll do with the findings** — affinity mapping, insight extraction, updating the OST, assumption confidence revision
 
 Recommend: use `research-synthesis` skill after fieldwork is complete to process findings and update the OST.
+
+### Note-taking template
+
+Set up your notes file before fieldwork begins. Copy this structure for each session. Verbatim quotes go in quotation marks. Interpretations are separated from observations.
+
+```
+SESSION NOTES: [Participant ID — never use names] — [Date] — [Method]
+Research questions this session addresses: [list from your research brief]
+
+---
+
+[TIMESTAMP] VERBATIM: "[exact words, in quotes]"
+[TIMESTAMP] OBSERVED: [what they did — describe without interpretation]
+[TIMESTAMP] SIGNAL: [emotional or behavioural signal — describe, don't label]
+[TIMESTAMP] TENTATIVE INSIGHT: ⚠️ [your interpretation — flagged as yours, not theirs]
+```
+
+**Why verbatim matters:** Paraphrasing during a session introduces interpretation before synthesis. *"She said it was confusing"* has already made a judgment. *"She said 'I couldn't figure out what this button was supposed to do'"* has not. The extra time to type it accurately is the cheapest investment in synthesis quality you can make.
+
+**Why the ⚠️ flag matters:** Tentative insights captured live are often the sharpest pattern recognition you'll do. But they corrupt synthesis if they slip into the observation record unmarked. The flag keeps them useful without making them authoritative.
+
+**Tip for teams:** If more than one person is in the session, assign roles before starting — one person facilitates, one person takes verbatim notes. Never ask the facilitator to do both. The note quality drops immediately, and so does the interview quality.
 
 ---
 

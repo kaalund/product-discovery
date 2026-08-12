@@ -30,6 +30,8 @@ Your job is to slow the user down at each level. Do not move to implication unti
 
 When invoked, run a brief intake before touching any material. Ask these together, not one at a time:
 
+> **Carrying context forward:** If a Situational Map from `discovery-guide` exists for this initiative, open with: *"I can see from your Situational Map that [key finding]. Is that still current?"* — then proceed from the relevant point rather than re-running the full intake. Do not re-ask questions already answered in the map.
+
 1. *"What were you trying to learn from this research? What question or assumption drove it?"*
 2. *"What type of research is this — interviews, observations, usability sessions, surveys, analytics, something else?"*
 3. *"How many participants or data points? Roughly what was the spread (role, context, stage of journey)?"*
@@ -37,6 +39,61 @@ When invoked, run a brief intake before touching any material. Ask these togethe
 5. *"Is there an existing OST, opportunity statement, or discovery brief this should feed back into?"*
 
 Once you have the material, confirm your understanding in one short paragraph: what was being investigated, what kind of evidence you have, and what you'll be looking for. Ask if that's right before proceeding.
+
+---
+
+## Source mode: Qualitative vs. Quantitative
+
+After intake, determine which mode applies based on the research type:
+
+- **Qualitative mode** (interviews, observations, usability sessions, diary studies): proceed with Phases 1–7 below.
+- **Quantitative mode** (analytics data, survey results, A/B test outcomes, funnel analysis, support ticket categories): proceed with the **Quantitative Synthesis** section instead.
+- **Mixed mode** (both): run Quantitative Synthesis first to establish the factual baseline, then Qualitative Synthesis to explain *why* the data looks the way it does. Do not merge the two — the outputs are different in kind.
+
+---
+
+## Quantitative Synthesis
+
+*Use this section when the primary source is quantitative: analytics, surveys, A/B results, funnel data, support data, or similar.*
+
+The three-level model still applies — observation, insight, implication — but each level means something different for data.
+
+**Observation (quantitative):** What the data literally shows. A number, a rate, a comparison, a distribution. No interpretation.
+- ✅ *"42% of users who reach step 3 do not proceed to step 4"*
+- ❌ *"Users are dropping off because step 4 is too complicated"* — that's already an insight
+
+**Insight (quantitative):** What behaviour or dynamic explains the pattern. This requires reasoning *beyond* the data — what is happening in the real world that would produce these numbers?
+- ✅ *"Drop-off at step 4 is disproportionately high among first-session users and near-zero for returning users — suggesting the barrier is familiarity, not friction in the step itself"*
+- ❌ *"We need to simplify step 4"* — that's an implication, not an insight
+
+**Implication (quantitative):** What the team should stop assuming, start testing, or change — as a direct consequence of the insight.
+- ✅ *"The problem isn't the step itself — it's that first-session users lack the context to understand what it's asking. This is an onboarding problem, not a UX problem at step 4. The right experiment tests whether giving users that context earlier reduces step-4 drop-off."*
+
+### Quantitative synthesis process
+
+**Step 1 — State the observation precisely.**
+Resist the urge to interpret immediately. Write the data as it is: the number, the comparison, the trend. Ask: *"Is this statement true even if my hypothesis about why is wrong?"*
+
+**Step 2 — Identify the pattern.**
+What makes this number interesting — is it the absolute value, the rate of change, the comparison to a baseline, a segmentation cut? Name what structure is visible in the data.
+
+**Step 3 — Generate competing explanations.**
+Before committing to an insight, generate at least 2–3 alternative explanations for the same data. Ask: *"What else could produce this number?"*
+
+> Example: 40% drop-off at step 4 could mean: (a) the step is too complicated, (b) users hit the step and decide the product isn't for them, (c) a bug affects a cohort, (d) users complete the step on a different device. Same number, very different implications.
+
+The most common mistake in quantitative discovery is committing to the first plausible explanation without surfacing the alternatives.
+
+**Step 4 — Select the most credible explanation and state it as an insight.**
+Identify the explanation that best accounts for all the data you have — including segmentation, time patterns, and cross-metric signals. State it as an insight, not a hypothesis: *"The data is most consistent with X, because [what makes X a better explanation than the alternatives]."*
+
+**Step 5 — Name what the data cannot tell you.**
+Quantitative data shows *what* happened. It rarely shows *why*. State explicitly: *"This data tells us [X]. It does not tell us [Y] — to understand Y, we would need [qualitative research / a specific experiment / an additional data cut]."*
+
+This gap is the natural handoff to the qualitative research cycle: quantitative data generates the question, qualitative research generates the explanation.
+
+**Step 6 — OST update.**
+Apply the same OST update logic as Phase 7 below — map insights to existing opportunities, surface new opportunity candidates, flag any contradicted assumptions.
 
 ---
 
